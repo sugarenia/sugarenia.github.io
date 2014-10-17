@@ -1,9 +1,7 @@
 ---
 layout: post
-title: You're up and running!
+title: Are you a web designer? You should learn to code.
 ---
-
-# Are you a web designer? You should learn to code.
 
 ```javascript
 var s = "JavaScript syntax highlighting";
