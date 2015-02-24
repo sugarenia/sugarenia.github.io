@@ -18,10 +18,15 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+
+    <script src="//use.typekit.net/mxu7qba.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
   </head>
 
   <body>
-    <div class="wrapper-masthead">
+
+    <div class="container">
+    <!-- <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
@@ -37,20 +42,20 @@
           </nav>
         </header>
       </div>
-    </div>
+    </div> -->
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+      <main id="main" role="main">
+        {{ content }}
+      </main>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            {% include svg-icons.html %}
+          </footer>
+        </div>
       </div>
     </div>
-
     {% include analytics.html %}
   </body>
 </html>
