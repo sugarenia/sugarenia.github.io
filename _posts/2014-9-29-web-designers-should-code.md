@@ -3,11 +3,6 @@ layout: post
 title: Are you a web designer? You should learn to code.
 ---
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
 <small><em>The I-can't-believe-we're-still-talking-about-this-in-2014 issue</em></small>
 
 This past weekend, I attended my second <a href="http://digitized.gr">Digitized</a> event in Athens. It is easily the most important digital design event in Greece, featuring inspiring speakers from around the world. <a href="http://www.niceandneat.gr">Konstantinos</a> and <a href="http://www.about.me/demetrios">Demetrios</a> are doing a fine, fine job in orchestrating an event that brings people together to inspire them, be them designers, developers, marketers or ninjas.
