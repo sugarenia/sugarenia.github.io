@@ -1,54 +1,244 @@
 ---
 ---
 
-@import "_variables";
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import "variables";
+@import "mixins";
+@import "normalize";
+
+*, *:before, *:after { 
+  @include box-sizing(border-box);
+}
 
 body {
-  background-color: $color-blue;
-  color: $color-white;
-  font-family: $font-family;
-  font-size: 20px;
+  background: $color-green url("images/bg.png");
+  color: #fff;
+  font-family: $font-family-paragraph;
+  font-size: 18px;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 // Layout
 .main-header {
-  text-align: center;
-  padding: 50px 0;
+  padding: 100px 0;
+  @extend %clearfix;
 
-  h2 {
-    color: #7f8c8d;
+  .is-single & {
+    padding: 20px 0;
+
+    .container {
+      padding-left: 0;
+    }
+
+    h1 {
+      padding-top: 0;
+    }
+  }
+
+  .container {
+    padding-left: 120px;
   }
 
   img {
     border-radius: 50px;
-    margin-bottom: 20px;
+    margin-left: -120px;
+    float: left;
+  }
+
+  h1 {
+    padding-top: 10px;
+    text-shadow: 0 1px 0 black(0.3);
+    @include all-caps-grotesque(30px);
+
+    span {
+      color: black(0.3);
+      margin-left: 5px;
+      text-shadow: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  h3 {
+    color: white(0.6);
+  }
+}
+
+.main-footer {
+  padding: 50px 0;
+  font-family: $font-family-heading;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: black(0.3);
+
+  a {
+    color: white(0.6);
+    text-decoration: none;
+
+    &:hover {
+      color: white(0.8);
+    }
   }
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 780px;
   margin: 0 auto;
 }
 
+.white {
+  background-color: $color-grey;
+  color: #383939;
+
+  .is-single & {
+    padding: 40px 0;
+  }
+}
+
+.timeline  {
+  padding: 100px 0 100px 120px;
+  position: relative;
+  
+  &:before {
+    content: "";
+    display: block;
+    width: 4px;
+    position: absolute;
+    top: 0;
+    left: 45px;
+    bottom: 0;
+    background-color: #b8e9d8;
+  }
+}
+
+// Posts
+.posts {
+
+}
+
+.post {
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: $color-orange;
+    box-shadow: 0 0 0 5px $color-grey;
+    border-radius: 30px;
+    position: absolute;
+    left: -80px;
+    top: 14px;
+  }
+
+  .is-single & {
+    &:before {
+      display: none;
+    }
+
+    h4 {
+      @include all-caps-grotesque(18px);
+      color: $color-blue;
+      margin: 40px 0 20px;
+    }
+  }
+
+  & + .post {
+    margin-top: 50px;
+  }
+
+  .post-title {
+    font: bold 30px $font-family-paragraph;
+  }
+
+  .post-meta {
+    font-family: $font-family-heading;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #b6c0ca;
+
+    a {
+      color: #b6c0ca;
+      text-decoration: none;
+    }
+  }
+
+  a {
+    color: #2b3e50;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.post-entry {
+  a {
+    color: $color-orange;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.post-comments {
+  margin-top: 40px;
+}
+
 // Typography
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
 h1 {
-  font-family: $font-family;
-  font-size: 24px;
-  font-weight: 900;
-  text-transform: uppercase;
-  margin: 20px 0 0;
+  @include bold-text(36px);
+  color: $color-blue;
 }
 
 h2 {
-  font-family: $font-family;
-  font-size: 24px;
+  @include bold-text(30px);
+}
+
+h3 {
+  @include all-caps-grotesque(24px);
+  color: $color-orange;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-family: $font-family-paragraph;
+  font-size: 20px;
   font-weight: 300;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 p {
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
+  font-family: $font-family-paragraph;
   font-weight: 300;
+  margin-bottom: 0;
+
+  & + p {
+    margin-top: 1em;
+  }
 }
+
+// Utilities
+.left   { float: left; }
+.right  { float: right; }

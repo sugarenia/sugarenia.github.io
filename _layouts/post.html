@@ -1,17 +1,18 @@
 ---
-layout: default
+layout: single
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+<section class="white">
+  <div class="container">
+    <article class="post">
+      <h1>{{ page.title }}</h1>
+      <div class="post-meta">{{ page.date | date: '%B %d, %Y' }}</div> <!-- &middot; <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" class="disqus-comment-count">tralala</a> -->
 
-  <div class="entry">
-    {{ content }}
+      <div class="post-entry">
+        {{ content }}
+      </div>
+
+      {% include disqus.html disqus_identifier=page.disqus_identifier %}
+    </article>
   </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html disqus_identifier=page.disqus_identifier %}
-</article>
+</section>

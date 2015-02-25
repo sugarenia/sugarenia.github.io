@@ -1,0 +1,38 @@
+@function black($opacity) {
+  @return rgba(0, 0, 0, $opacity)
+}
+@function white($opacity) {
+  @return rgba(255, 255, 255, $opacity)
+}
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model;
+     -moz-box-sizing: $box-model;
+          box-sizing: $box-model;
+}
+
+@mixin all-caps-grotesque($font-size) {
+  font-family: $font-family-heading;
+  font-size: $font-size;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@mixin bold-text($font-size) {
+  font-family: $font-family-paragraph;
+  font-size: $font-size;
+  font-weight: bold;
+}
+
+%clearfix,
+.clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+  

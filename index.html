@@ -2,25 +2,22 @@
 layout: default
 ---
 
+<section class="white">
+  <div class="container">
+    <div class="timeline">
+      <h3>From the blog</h3>
 
-<header class="main-header">
-  <img src="{{ site.avatar }}" width="100" height="100" />
-  <h1>{{ site.name }}</h1>
-  <h2>{{ site.description }}</h2>
-  <p>I'm a user interface designer living on the sunny island of Crete, Greece.<br />Focused in designing people will actually use, not just look at.</p>
-</header>
-
-<div class="posts">
-  {% for post in site.posts limit:5 %}
-    <article class="post">    
-      
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
+      <div class="posts">
+        {% for post in site.posts limit:5 %}
+          <article class="post">    
+            
+            <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <div class="post-meta">{{ post.date | date: '%B %d, %Y' }}</div> <!-- &middot; <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" class="disqus-comment-count">tralala</a> -->
+            
+          </article>
+        {% endfor %}
       </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    </div>
+
+  </div>
+</section>
