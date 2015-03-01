@@ -4,6 +4,7 @@
 @import "variables";
 @import "mixins";
 @import "normalize";
+@import "highlights";
 
 *, *:before, *:after { 
   @include box-sizing(border-box);
@@ -13,7 +14,7 @@ body {
   background: $color-green url("images/bg.png");
   color: #fff;
   font-family: $font-family-paragraph;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 a {
@@ -151,9 +152,9 @@ a {
     }
 
     h4 {
-      @include all-caps-grotesque(18px);
+      @include all-caps-grotesque(24px);
       color: $color-blue;
-      margin: 40px 0 20px;
+      margin: 2em 0 1em;
     }
   }
 
@@ -163,6 +164,14 @@ a {
 
   .post-title {
     font: bold 30px $font-family-paragraph;
+
+    .is-single & {
+      @include bold-text(42px);
+      line-height: 1.2;
+      border-bottom: 2px solid #D8DFE1;
+      padding-bottom: 0.8em;
+      margin-bottom: 0.8em;
+    }
   }
 
   .post-meta {
@@ -189,8 +198,17 @@ a {
 }
 
 .post-entry {
-  p {
+  p, li {
     line-height: 1.45;
+  }
+
+  ul, ol {
+    margin: 1em 0 1em 1em;
+    padding: 0;
+  }
+
+  li + li {
+    margin-top: 1em;
   }
 
   a {
@@ -201,10 +219,15 @@ a {
       text-decoration: none;
     }
   }
+
+  small {
+    font-size: 80%;
+    color: lighten(#484c50, 30%);
+  }
 }
 
 .post-comments {
-  margin-top: 40px;
+  margin-top: 3em;
 }
 
 // Typography
@@ -213,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  @include bold-text(36px);
+  @include bold-text(42px);
   color: $color-blue;
   line-height: 1.2;
 }
