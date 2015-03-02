@@ -1,5 +1,5 @@
 ---
-title: Are you a web designer? You should learn to code.
+title: Are you a Web Designer? You Should Learn to Code.
 author: Sugar
 layout: post
 category: blog

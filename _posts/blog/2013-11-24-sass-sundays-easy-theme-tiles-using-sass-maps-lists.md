@@ -1,5 +1,5 @@
 ---
-title: 'Sass Sundays: Easy theme tiles using Sass maps &#038; lists'
+title: 'Sass Sundays: Easy Theme Tiles Using Sass Maps &#038; Lists'
 author: Sugar
 layout: post
 category: blog

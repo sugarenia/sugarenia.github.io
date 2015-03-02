@@ -1,5 +1,5 @@
 ---
-title: 'Sass Sundays: A button framework for your projects'
+title: 'Sass Sundays: A Button Framework for your Projects'
 author: Sugar
 layout: post
 category: blog
@@ -10,9 +10,10 @@ Sass really shines in making boring, repetitive styling more efficient and, dare
 
 I posted a <a href="http://sassmeister.com/gist/7482701" target="_blank">simple button framework</a> in Sassmeister yesterday. Let&#8217;s take a deeper look at it.
 
-<pre><code class="language-markup">&lt;button class="btn btn--primary"&gt;Primary button&lt;/button&gt;
-&lt;button class="btn btn--primary"&gt;Secondary button&lt;/button&gt;
-</code></pre>
+{% highlight html %}
+<button class="btn btn--primary">Primary button</button>
+<button class="btn btn--primary">Secondary button</button>
+{% endhighlight %}
 
 The HTML is pretty straightforward. Just a <code class="inline">&lt;button&gt;</code> and two classes. The first class adds the basic styles, stuff like typography and padding, while the second class determines its colours. Quite basic.
 
@@ -22,7 +23,8 @@ I also use the <a href="http://bem.info/method/" target="_blank">BEM syntax</a> 
 
 Now, the magic. I use Sass & Compass in this example, but this can easily be done in vanilla Sass as well. 
 
-<pre><code class="language-scss">// ----
+{% highlight scss %}
+// ----
 // Sass (v3.3.0.rc.1)
 // Compass (v0.13.alpha.10)
 // ----
@@ -56,7 +58,7 @@ Now, the magic. I use Sass & Compass in this example, but this can easily be don
   @include background(linear-gradient(lighten($background-color, 3%), darken($background-color, 3%)));
   color: $text-color;
  
-  @if lightness($text-color) &lt; 50% {
+  @if lightness($text-color) < 50% {
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
   } @else {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
@@ -71,7 +73,8 @@ Now, the magic. I use Sass & Compass in this example, but this can easily be don
  
 // Colour variations
 .btn--primary   { @include button(#ea6ca4, #fff); }
-.btn--secondary { @include button(#d6d6d6, #707070); }</code>&lt;/code></pre>
+.btn--secondary { @include button(#d6d6d6, #707070); }
+{% endhighlight %}
 
 First, I add some basic styles to the <code class="inline">.btn</code> class. That way, even if I don&#8217;t add a second class for some reason, I still have a simple button that doesn&#8217;t look broken. This class also includes the <code class="inline">:active</code> state styles, since these are common for all buttons (a tiny nudge downwards and a different shadow).
 

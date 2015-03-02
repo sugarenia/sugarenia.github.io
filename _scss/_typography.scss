@@ -1,0 +1,85 @@
+/*-----------------------------*\
+ * TYPOGRAPHY
+\*-----------------------------*/
+
+@font-face {
+    font-family: 'brandon-text';
+    src: url('fonts/BrandonText-Bold.eot');
+    src: url('fonts/BrandonText-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BrandonText-Bold.woff2') format('woff2'),
+         url('fonts/BrandonText-Bold.woff') format('woff'),
+         url('fonts/BrandonText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandon-text';
+    src: url('fonts/BrandonText-Regular.eot');
+    src: url('fonts/BrandonText-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BrandonText-Regular.woff2') format('woff2'),
+         url('fonts/BrandonText-Regular.woff') format('woff'),
+         url('fonts/BrandonText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandon-text';
+    src: url('fonts/BrandonText-RegularItalic.eot');
+    src: url('fonts/BrandonText-RegularItalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BrandonText-RegularItalic.woff2') format('woff2'),
+         url('fonts/BrandonText-RegularItalic.woff') format('woff'),
+         url('fonts/BrandonText-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+html {
+  font-size: 20px;  
+
+  @include breakpoint(xs) {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  @include bold-text(2.1rem);
+  color: $color-blue;
+  line-height: 1.2;
+}
+
+h2 {
+  @include bold-text(1.5rem);
+}
+
+h3 {
+  @include all-caps-grotesque(1.2rem);
+  color: $color-orange;
+  margin-bottom: 1.5rem;
+}
+
+h4 {
+  font-family: $font-family-paragraph;
+  font-size: 1rem;
+  font-weight: 300;
+  color: white(0.6);
+}
+
+p {
+  font-family: $font-family-paragraph;
+  font-weight: 300;
+  margin-bottom: 0;
+
+  & + p {
+    margin-top: 1rem;
+  }
+}

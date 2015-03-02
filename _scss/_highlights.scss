@@ -5,7 +5,7 @@
 
 .highlight { 
   background-color: #2B303B;
-  padding: 5px 10px;
+  padding: 15px;
   margin: 20px 0;
 }
 
@@ -13,12 +13,20 @@
   /* overflow: scroll; Prefer no word wrap? Uncomment this line and comment out the 2 lines below. */
   word-break: break-all;
   word-wrap: break-word;
+  margin: 0;
 }
  
 code {
-  font-family: Menlo, Consolas, Inconsolata, Courier, monospace;
-  font-size: 14px;
-  color: #999
+  font-family: Menlo, Monaco, Consolas, Inconsolata, "Andale Mono", monospace;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #c0c5cb;
+
+  &.inline {
+    background-color: #FFFDE2;
+    color: #C78B38;
+    padding: 2px 4px;
+  }
 }
  
 /* Comment */

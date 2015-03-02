@@ -1,5 +1,5 @@
 ---
-title: How I Force Myself to Be Productive (or else)
+title: How I Force Myself to be Productive (or else)
 author: Sugar
 layout: post
 category: blog
@@ -75,7 +75,7 @@ That&#8217;s my workflow, in a nutshell. If this helps you somehow, do let me kn
 
 ###### Photo credits
 
-<ol class="credits">
+<ol class="small">
   <li>
     Part of my sad &#038; tired Single Actions/Sometime/Maybe/Maybe Never/Who Knows THL list
   </li>

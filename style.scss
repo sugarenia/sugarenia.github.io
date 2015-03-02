@@ -4,6 +4,7 @@
 @import "variables";
 @import "mixins";
 @import "normalize";
+@import "typography";
 @import "highlights";
 
 *, *:before, *:after { 
@@ -14,7 +15,6 @@ body {
   background: $color-green url("images/bg.png");
   color: #fff;
   font-family: $font-family-paragraph;
-  font-size: 20px;
 }
 
 a {
@@ -28,11 +28,15 @@ a {
 
 // Layout
 .main-header {
-  padding: 100px 0;
+  padding: 5rem 0;
   @extend %clearfix;
 
+  @include breakpoint(xs) {
+    padding: 1.25rem 0 2.5rem;
+  }
+
   .is-single & {
-    padding: 20px 0;
+    padding: 1rem 0;
 
     .container {
       padding-left: 0;
@@ -40,29 +44,52 @@ a {
 
     h1 {
       padding-top: 0;
+
+      @include breakpoint(xs) {
+        float: none;
+      }
     }
   }
 
   .container {
-    padding-left: 120px;
+    padding-left: 6rem;
+
+    @include breakpoint(xs) {
+      padding-left: 0;
+    }
   }
 
   img {
     border-radius: 50px;
-    margin-left: -120px;
     float: left;
+    margin-left: -6rem;
+
+    @include breakpoint(xs) {
+      float: none;
+      margin-left: 0;
+      margin-bottom: 1.25rem;
+    }
   }
 
   h1 {
-    padding-top: 10px;
+    padding-top: 0.5rem;
     text-shadow: 0 1px 0 black(0.3);
     color: #fff;
-    @include all-caps-grotesque(30px);
+    @include all-caps-grotesque(1.5rem);
+
+    @include breakpoint(xs) {
+      padding-top: 0;
+    }
 
     span {
       color: black(0.3);
-      margin-left: 5px;
+      margin-left: 0.25rem;
       text-shadow: none;
+
+      @include breakpoint(xs) {
+        display: block;
+        margin-left: 0;
+      }
     }
 
     a {
@@ -76,13 +103,17 @@ a {
 }
 
 .main-footer {
-  padding: 50px 0;
+  padding: 2.5rem 0;
   font-family: $font-family-heading;
-  font-size: 14px;
+  font-size: 0.7rem;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
   color: black(0.3);
+
+  @include breakpoint(xs) {
+    padding: 1.25rem 0;
+  }
 
   a {
     color: white(0.6);
@@ -95,22 +126,22 @@ a {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   max-width: 780px;
   margin: 0 auto;
 }
 
 .white {
-  background-color: $color-grey;
+  background-color: #fff;
   color: #484c50;
 
   .is-single & {
-    padding: 40px 0;
+    padding: 2rem 0;
   }
 }
 
 .timeline  {
-  padding: 100px 0 100px 120px;
+  padding: 5rem 0 5rem 6rem;
   position: relative;
   
   &:before {
@@ -122,14 +153,20 @@ a {
     left: 45px;
     bottom: 0;
     background-color: #b8e9d8;
+
+    @include breakpoint(xs) {
+      display: none;
+    }
+  }
+
+  @include breakpoint(xs) {
+    padding: 2.5rem 0;
   }
 }
 
-// Posts
-.posts {
-
-}
-
+/*
+  Post module, either a simple title + meta or full post
+*/
 .post {
   position: relative;
 
@@ -139,7 +176,7 @@ a {
     width: 14px;
     height: 14px;
     background-color: $color-orange;
-    box-shadow: 0 0 0 5px $color-grey;
+    box-shadow: 0 0 0 5px #fff;
     border-radius: 30px;
     position: absolute;
     left: -80px;
@@ -150,33 +187,26 @@ a {
     &:before {
       display: none;
     }
-
-    h4 {
-      @include all-caps-grotesque(24px);
-      color: $color-blue;
-      margin: 2em 0 1em;
-    }
   }
 
   & + .post {
-    margin-top: 40px;
+    margin-top: 2rem;
   }
 
   .post-title {
-    font: bold 30px $font-family-paragraph;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
 
     .is-single & {
-      @include bold-text(42px);
-      line-height: 1.2;
       border-bottom: 2px solid #D8DFE1;
-      padding-bottom: 0.8em;
-      margin-bottom: 0.8em;
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
     }
   }
 
   .post-meta {
     font-family: $font-family-heading;
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: 900;
     text-transform: uppercase;
     color: #b6c0ca;
@@ -197,18 +227,36 @@ a {
   }
 }
 
+/*
+  Main post content 
+  All post typographical styles go here
+*/
 .post-entry {
+
+  h4 {
+    @include all-caps-grotesque(1.2rem);
+    line-height: 1.2;
+    color: $color-blue;
+    margin: 3rem 0 1.5rem;
+  }
+
+  h6 {
+    @include all-caps-grotesque(0.7rem);
+    color: #9aa3ab;
+    margin-top: 2rem;
+  }
+
   p, li {
     line-height: 1.45;
   }
 
   ul, ol {
-    margin: 1em 0 1em 1em;
+    margin: 1rem 0 1rem 1rem;
     padding: 0;
   }
 
   li + li {
-    margin-top: 1em;
+    margin-top: 1rem;
   }
 
   a {
@@ -220,98 +268,59 @@ a {
     }
   }
 
-  small {
+  small,
+  .small {
     font-size: 80%;
-    color: lighten(#484c50, 30%);
+    color: #9aa3ab;
   }
 }
 
+/*
+  Disqus container
+*/
 .post-comments {
-  margin-top: 3em;
+  margin-top: 3rem;
 }
 
-// Typography
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-h1 {
-  @include bold-text(42px);
-  color: $color-blue;
+/*
+  Next/previous article navigation below each post
+*/
+.post-nav {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+  border-top: 2px solid #D8DFE1;
   line-height: 1.2;
+  @extend %clearfix;
+
+  a {
+    @include bold-text(1.2rem);
+  }
 }
 
-h2 {
-  @include bold-text(30px);
+.post-nav__previous {
+  width: 48%;
+  float: left;
+  text-align: right;
+
+  @include breakpoint(xs) {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
 }
 
-h3 {
-  @include all-caps-grotesque(24px);
-  color: $color-orange;
-  margin-bottom: 30px;
-}
+.post-nav__next {
+  width: 48%;
+  float: right;
 
-h4 {
-  font-family: $font-family-paragraph;
-  font-size: 20px;
-  font-weight: 300;
-  color: white(0.6);
-}
-
-p {
-  font-family: $font-family-paragraph;
-  font-weight: 300;
-  margin-bottom: 0;
-
-  & + p {
-    margin-top: 1em;
+  @include breakpoint(xs) {
+    float: none;
+    width: 100%;
+    margin-top: 1.5rem;
   }
 }
 
 // Utilities
 .left   { float: left; }
 .right  { float: right; }
-
-
-
-@font-face {
-    font-family: 'brandon-text';
-    src: url('fonts/BrandonText-Bold.eot');
-    src: url('fonts/BrandonText-Bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/BrandonText-Bold.woff2') format('woff2'),
-         url('fonts/BrandonText-Bold.woff') format('woff'),
-         url('fonts/BrandonText-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'brandon-text';
-    src: url('fonts/BrandonText-Regular.eot');
-    src: url('fonts/BrandonText-Regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/BrandonText-Regular.woff2') format('woff2'),
-         url('fonts/BrandonText-Regular.woff') format('woff'),
-         url('fonts/BrandonText-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'brandon-text';
-    src: url('fonts/BrandonText-RegularItalic.eot');
-    src: url('fonts/BrandonText-RegularItalic.eot?#iefix') format('embedded-opentype'),
-         url('fonts/BrandonText-RegularItalic.woff2') format('woff2'),
-         url('fonts/BrandonText-RegularItalic.woff') format('woff'),
-         url('fonts/BrandonText-RegularItalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-
-}

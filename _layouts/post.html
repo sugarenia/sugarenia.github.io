@@ -12,7 +12,23 @@ layout: single
         {{ content }}
       </div>
 
+      <div class="post-nav">
+        {% if page.previous.url %} 
+          <div class="post-nav__previous">
+            <div class="post-meta">&larr; Previous article</div>
+            <a href="{{page.previous.url}}">{{page.previous.title}}</a> 
+          </div>
+        {% endif %} 
+        {% if page.next.url %} 
+          <div class="post-nav__next">
+            <div class="post-meta">Next article &rarr;</div>
+            <a href="{{page.next.url}}">{{page.next.title}}</a> 
+          </div>
+        {% endif %} 
+      </div>
+
       {% include disqus.html disqus_identifier=page.disqus_identifier %}
     </article>
+
   </div>
 </section>

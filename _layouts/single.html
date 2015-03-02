@@ -22,18 +22,6 @@
     <script src="//use.typekit.net/mxu7qba.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $(".post > h1").each(function() {
-          var wordArray = $(this).text().split(" ");
-          if (wordArray.length > 1) {
-            wordArray[wordArray.length-2] += "&nbsp;" + wordArray[wordArray.length-1];
-            wordArray.pop();
-            $(this).html(wordArray.join(" "));
-          }
-        });
-      }); 
-    </script>
   </head>
 
   <body class="is-single">

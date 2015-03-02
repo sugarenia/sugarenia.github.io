@@ -4,3 +4,16 @@
     <a href="http://twitter.com/sugarenia">Twitter</a> &middot; <a href="http://instagram.com/therealsugarenia">Instagram</a> &middot; <a href="http://dribbble.com/sugarenia">Dribbble</a> &middot; <a href="http://github.com/sugarenia">Github</a>
   </div>
 </footer>
+
+<script>
+  $(document).ready(function() {
+    $(".post-title a").each(function() {
+      var wordArray = $(this).text().split(" ");
+      if (wordArray.length > 1) {
+        wordArray[wordArray.length-2] += "&nbsp;" + wordArray[wordArray.length-1];
+        wordArray.pop();
+        $(this).html(wordArray.join(" "));
+      }
+    });
+  }); 
+</script>
