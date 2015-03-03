@@ -3,6 +3,7 @@ title: Shameless plug
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/life/shameless-plug"
 ---
 I don&#8217;t really feel ok about this, but I think this is the ideal place for me to post it anyway.
 

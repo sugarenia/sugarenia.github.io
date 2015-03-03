@@ -3,6 +3,7 @@ title: 'Sass Sundays: Easy Theme Tiles Using Sass Maps &#038; Lists'
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/sass-sundays-easy-theme-tiles-using-sass-maps-lists"
 ---
 As I was browsing <a href="https://kuler.adobe.com" target="_blank">Kuler</a> for colour inspiration the other day, I started wondering: what&#8217;s an easy way to automate colour theme thumbnail generation with Sass? It took me about half an hour to come up with a widget I was satisfied with and I promptly posted it on <a href="http://sassmeister.com" target="_blank">Sassmeister</a>.
 

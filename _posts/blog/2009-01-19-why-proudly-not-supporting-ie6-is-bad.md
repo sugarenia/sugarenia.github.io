@@ -3,6 +3,7 @@ title: 'Why &#8220;proudly&#8221; not supporting IE6 is bad'
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/interesting/why-proudly-not-supporting-ie6-is-bad"
 ---
 No, no. You didn&#8217;t get me straight. I hate debugging perfectly working websites in Internet Explorer 6 as much as the next web designer, but I can&#8217;t help but comment on the recent trend of not-IE6 *pride*.
 

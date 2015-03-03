@@ -3,6 +3,7 @@ title: Being a Freelancer in a Bankrupt Country
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/life/being-a-freelancer-in-a-bankrupt-country"
 ---
 [<img src="http://farm3.staticflickr.com/2530/4224674764_ee79bd71ab.jpg" alt="Interstate 70 near richfield colorful" width="500" height="332" />][1]
 

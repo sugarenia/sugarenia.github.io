@@ -3,6 +3,7 @@ title: 'Book Review: Web Form Design by Luke Wroblewski'
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/book-review-web-form-design-by-luke-wroblewski"
 ---
 <img class="alignleft size-full wp-image-432" style="float: left; margin: 0 10px 0 0;" title="webforms" src="http://blog.sugarenia.com/wp-content/uploads/2008/06/webforms.gif" alt="" width="80" height="120" />
 

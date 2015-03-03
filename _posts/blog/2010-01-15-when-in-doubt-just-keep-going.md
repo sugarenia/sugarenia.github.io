@@ -3,6 +3,7 @@ title: When in Doubt, Just Keep Going
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/when-in-doubt-just-keep-going"
 ---
 <div class="img left">
   <a href="http://www.flickr.com/photos/jeffmcneill/2872005811/"><img src="http://farm3.static.flickr.com/2119/2872005811_6e13e99934_m.jpg" alt="Overachiever" width="192" height="240" /></a>

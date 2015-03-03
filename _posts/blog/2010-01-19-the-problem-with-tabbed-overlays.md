@@ -3,6 +3,7 @@ title: The Problem with Tabbed Overlays
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/the-problem-with-tabbed-overlays"
 ---
 Tabs (earlier) and overlays (later) are two of the most widely used web interface patterns. By using them, one can organize a complex user interface in seconds, guiding the user to see what he&#8217;s meant to see and not get confused by other modules of the application.
 

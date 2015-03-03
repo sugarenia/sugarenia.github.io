@@ -3,6 +3,7 @@ title: The Zen of CSS design
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/reviews/the-zen-of-css-design"
 ---
 
 ![Zen]({{ site.baseurl }}/images/zen.jpg)
@@ -15,7 +16,7 @@ I bought it some weeks ago, and I must say that I had to restrain myself from re
 
 Brilliant book from some great web professionals! ([Dave Shea][5] &#038; [Molly E. Holzschlag][6])
 
-*Things I Loved* 
+#### Things I Loved
 
 *   The abundance of clear explanatory images which illustrate the book.
 *   The numerous links to online resources which include some real gems.
@@ -23,7 +24,7 @@ Brilliant book from some great web professionals! ([Dave Shea][5] &#038; [Molly 
 *   The structure and division of content, which covers all major aspects of current web design.
 *   The gazillion of creative ideas that spawn in your mind after reading just one section of the book.
 
-*Things I&#8217;m Sceptical About :*
+#### Things I&#8217;m Sceptical About
 
 *   The size of the book, a bit unpractical and uneasy.
 *   The lack of actual guidance, since the book is a collection of hints &#8216;n&#8217; tips and not a hands-on tutorial. 

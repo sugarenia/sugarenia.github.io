@@ -3,8 +3,9 @@ title: 'The HitList is a NKOTB*, makes heads turn'
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/critiques/the-hitlist-is-a-nkotb-makes-heads-turn"
 ---
-<img style="float: left; margin: 0 10px 0 0;" title="The Hit List by PotionFactory" src="http://farm4.static.flickr.com/3194/3103704073_76547b468e_t.jpg" alt="" width="100" height="100" />One of the newest kids on the productivity (or as all the cool kids call it, [GTD][1]) field is [The Hit List][2], a polished task management app from [PotionFactory][3], the mama of [Voice Candy][4] and [Tangerine!][5].
+<img class="left" title="The Hit List by PotionFactory" src="http://farm4.static.flickr.com/3194/3103704073_76547b468e_t.jpg" alt="" width="100" height="100" />One of the newest kids on the productivity (or as all the cool kids call it, [GTD][1]) field is [The Hit List][2], a polished task management app from [PotionFactory][3], the mama of [Voice Candy][4] and [Tangerine!][5].
 
 Having used (for just a bit) a ton of task management apps, both on Windows and on Mac OS, I can tell if one of those buggers is gonna be a hit or not. And this, my friends, is a direct crossé to the jaw of procrastination.
 

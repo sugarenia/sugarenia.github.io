@@ -3,6 +3,7 @@ title: Bulletproof Web Design
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/reviews/bulletproof-web-design"
 ---
 
 ![Bulletproof Web Design]({{ site.baseurl }}/images/bulletproof.jpg)
@@ -15,7 +16,7 @@ This particular book puts in test some of the most widely used techniques of web
 
 Apart from the fact that it explains step-by-step the CSS process, &#8220;[Bulletproof Web Design][1]&#8221; teaches safe, adapting web design even in extreme conditions (which may not be so extreme after all). The outcome is really bulletproof, safe and accessible code that covers most of the features a web designer may use in a website.
 
-*Things I Loved :*
+#### Things I Loved
 
 *   Simple and understandable at-a-glance chapter layout.
 *   Simplified language and reduced use of technical terms, friendly content even to beginners.
@@ -23,7 +24,7 @@ Apart from the fact that it explains step-by-step the CSS process, &#8220;[Bulle
 *   Complete CSS conversion of some of the most commonly used web snippets.
 *   A hands-on book that actually teaches CSS techniques.
 
-*Things I&#8217;m Skeptical about :*
+#### Things I&#8217;m Skeptical about
 
 *   Maybe the fact that it&#8217;s not teaching you CSS hands-on, or exhaustively. It provides already acquainted with stylesheets designers with a range of great tips and code snippets to make those pesky layers work. Not for the beginner, in my opinion.
 

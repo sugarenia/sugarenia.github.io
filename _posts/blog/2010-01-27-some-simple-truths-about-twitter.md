@@ -3,6 +3,7 @@ title: Some Simple Truths about Twitter
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/rantings/some-simple-truths-about-twitter"
 ---
 <div class="img" style="margin: 0 auto 18px; text-align: center">
   <a href="http://www.flickr.com/photos/directfromcannes/3657862198/"><img src="http://farm4.static.flickr.com/3579/3657862198_9ffc4393ea_o.jpg" alt="" width="485" height="364" /></a>

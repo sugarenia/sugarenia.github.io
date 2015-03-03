@@ -3,10 +3,11 @@ title: How to design for success without being a real designer
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/how-to-design-for-success-without-being-a-real-designer"
 ---
 <div style="text-align: center; margin-top: 10px">
   <a href="http://flickr.com/photos/jim-ar/776780244/"><img class="size-full wp-image-761" title="webdesign" src="http://blog.sugarenia.com/wp-content/uploads/2008/12/webdesign.jpg" alt="Photo by Jim-AR" width="330" height="330" /></a> <p class="wp-caption-text">
-    Photo by <a href="http://flickr.com/photos/jim-ar/">Jim-AR</a>
+    <small>Photo by <a href="http://flickr.com/photos/jim-ar/">Jim-AR</a></small>
   </p>
 </div>
 
@@ -18,7 +19,7 @@ OK, you&#8217;re not a designer. But it&#8217;s really not that difficult to mak
 
 Some simple rules:
 
-### Simplicity Comes First
+#### Simplicity Comes First
 
 First of all, go forth and take a long, hard look at your application. Is it simple enough? Can you simplify a process even more? Or maybe two?
 
@@ -26,7 +27,7 @@ If the answer is positive, go ahead and simplify it as much as possible. Then si
 
 *Now* you&#8217;re ready for the design process.
 
-### Basic Colour Theory
+#### Basic Colour Theory
 
 You don&#8217;t know zilch about colour palettes or Photoshop and the very thought of an empty canvas scares you.
 
@@ -36,7 +37,7 @@ If total black or total white are too harsh for your eyes, go with `#eee` for th
 
 Nothing too fancy.
 
-### Typography 101
+#### Typography 101
 
 Choose one to two typefaces &#8211; max. Try serif fonts for headers (like Times, Georgia) and sans-serif fonts (like Arial, Helvetica, Verdana) for everything else, or go all sans-serif, noone will mind.
 
@@ -44,7 +45,7 @@ A collective piece of advice, from quite some time around designing <a href="htt
 
 Also, don&#8217;t overdo center alignment for text. It looks hideous, amateurish and hinders legibility.
 
-### Whitespace, Whitespace, Whitespace
+#### Whitespace, Whitespace, Whitespace
 
 I don&#8217;t know how many times I&#8217;ll say that &#8211; what&#8217;s with developers and tight design? Give it room to breathe, and plenty!
 
@@ -52,13 +53,13 @@ Set your copy line-height to 1.4 &#8211; 1.6 em and try to keep your margins bet
 
 Leave enough space between different page elements and by all means, check out the [theory of proximity][1] pretty pretty please.
 
-### Graphics and Icons
+#### Graphics and Icons
 
 There are [tons of free icon sets][2] that can help you with your design. If you decide to use one of them, adopt the most complete one &#8211; in general, mixing and matching icons is bad. Keep a consistent style.
 
 Graphics? You don&#8217;t need them to make something useful. You really don&#8217;t. Ditch Photoshop, you&#8217;re not a graphics artist. There&#8217;s nothing worse than badly done Photoshop, I assure you.
 
-### In a few words&#8230;
+#### In a few words&#8230;
 
 Strive for simplicity and consistency. Follow consistency overall. And learn how to think like a user, not like a programmer &#8211; use your product and see if you like it.
 

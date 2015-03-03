@@ -3,6 +3,7 @@ title: On Running
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/life/on-running"
 ---
 <img alt="" src="http://nikewomen.co.za/blog/wp-content/uploads/2009/06/jpegviewer4.jpg" title="Nike Women Run" class="alignnone" width="500" height="333" />
 

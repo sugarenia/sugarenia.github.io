@@ -3,6 +3,7 @@ title: Why it Took me 1 Year to Create a Portfolio
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/why-it-took-me-1-year-to-create-a-portfolio"
 ---
 <p style="text-align: center;">
   <a href="http://farm5.static.flickr.com/4065/4529836138_15afc22f58.jpg"><img class="aligncenter" src="http://farm5.static.flickr.com/4065/4529836138_15afc22f58.jpg" alt="" width="500" height="333" /></a>

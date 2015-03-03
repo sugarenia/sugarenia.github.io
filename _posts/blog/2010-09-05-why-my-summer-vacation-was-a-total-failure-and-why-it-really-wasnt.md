@@ -3,6 +3,7 @@ title: 'Why My Summer Vacation Was a Total Failure &#8211; and Why it Really Was
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/life/why-my-summer-vacation-was-a-total-failure-and-why-it-really-wasnt"
 ---
 This month, I officially celebrate my first 6 months as a freelancer. Surprisingly enough, one of the reasons I quit my day job and went the self-employed route was because I wanted to work *less*, not more. I don&#8217;t want to get rich sacrificing my personal life. I just want to achieve a balance.
 

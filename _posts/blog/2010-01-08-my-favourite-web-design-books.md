@@ -3,6 +3,7 @@ title: My Favourite Web Design Books
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/my-favourite-web-design-books"
 ---
 One of the most common questions I get over e-mail & twitter is the infamous &#8220;*Do you have any good design books to suggest?*&#8221; one. I wouldn&#8217;t blame those people &#8211; there is an abundance of books (even good ones) out there and it&#8217;s really difficult to read between the lines, Amazon reviews or not Amazon reviews.
 
@@ -14,7 +15,7 @@ Due to this, I&#8217;ve decided to mark the first week of my [#p52][1] project w
       <a href="http://www.flickr.com/photos/redux/4064154024/"><img class="alignnone size-full wp-image-1155" title="dwws" src="http://blog.sugarenia.com/wp-content/uploads/2010/01/dwws2.jpg" alt="dwws" width="520" height="200" /></a>
     </div>
     
-    <h4 class="y-last">
+    <h4>
       <a href="http://www.amazon.com/gp/product/0321616952?ie=UTF8&tag=sugareniacom-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0321616952">Designing with Web Standards (3rd Edition)</a><img style="border:none !important; margin:0px !important;" src="http://www.assoc-amazon.com/e/ir?t=sugareniacom-20&l=as2&o=1&a=0321616952" border="0" alt="" width="1" height="1" />
     </h4>
     

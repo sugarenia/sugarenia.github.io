@@ -7,6 +7,8 @@
 
 <script>
   $(document).ready(function() {
+
+    // remove widows
     $(".post-title a").each(function() {
       var wordArray = $(this).text().split(" ");
       if (wordArray.length > 1) {
@@ -15,5 +17,6 @@
         $(this).html(wordArray.join(" "));
       }
     });
+    
   }); 
 </script>

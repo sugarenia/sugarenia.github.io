@@ -3,16 +3,18 @@ title: Print-friendly feature tables with CSS
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/print-friendly-feature-tables-with-css"
 ---
 Recently at [work][1] I had to code (rather, re-code) a feature table for our [Shopping][2] service. 
 
 We used images to denote the availability of features for different packages, adding them via a CSS `background` rule to all relevant table cells. The CSS code was initially like this:
 
-<pre name="code" class="css">.available {
+{% highlight css %}
+.available {
    background: url("img/tick.gif") no-repeat;
    background-position: 50% 50%;
 }
-</pre>
+{% endhighlight %}
 
 A simple `&mdash;` was used for cells that denoted that the feature is not available for the particular package. 
 
@@ -22,18 +24,18 @@ Initially, all &#8220;available&#8221; cells contained a non-breaking space, so 
 
 The whole trick is like that:
 
-<pre name="code" class="xml"><table>
+{% highlight html %}
+<table>
   <tr>
     <td class="available">
       YES
     </td>
-       
   </tr>
-  
 </table>
-</pre>
+{% endhighlight %}
 
-<pre name="code" class="css">.available {
+{% highlight css %}
+.available {
    background: url("img/tick.gif") no-repeat;
    background-position: 50% 50%;
    text-indent: -9999em;
@@ -45,7 +47,7 @@ The whole trick is like that:
        background-image: none;
    }
 }
-</pre>
+{% endhighlight %}
 
 Now the browser will show the tick images on screen, but will lose them upon printing, replacing them with the text that you put in your table cells.
 

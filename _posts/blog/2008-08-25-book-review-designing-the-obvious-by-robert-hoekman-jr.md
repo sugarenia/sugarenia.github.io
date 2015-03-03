@@ -3,8 +3,9 @@ title: 'Book Review: Designing the Obvious by Robert Hoekman, Jr.'
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/book-review-designing-the-obvious-by-robert-hoekman-jr"
 ---
-<img class="alignleft size-full wp-image-482" title="dto" src="http://blog.sugarenia.com/wp-content/uploads/2008/08/dto.jpg" alt="" width="100" height="150" />It&#8217;s quite a long time that I&#8217;ve read <a href="http://www.amazon.com/Designing-Obvious-Common-Approach-Application/dp/032145345X/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1219681054&sr=8-1" target="_blank"> Designing the Obvious by Robert Hoekman, Jr.</a>, but I never managed to write a proper review for this little gem of web design books. I think now is the time for proper credit.
+<img class="left" title="dto" src="http://blog.sugarenia.com/wp-content/uploads/2008/08/dto.jpg" alt="" width="100" height="150" />It&#8217;s quite a long time that I&#8217;ve read <a href="http://www.amazon.com/Designing-Obvious-Common-Approach-Application/dp/032145345X/ref=pd_bbs_sr_1?ie=UTF8&s=books&qid=1219681054&sr=8-1" target="_blank"> Designing the Obvious by Robert Hoekman, Jr.</a>, but I never managed to write a proper review for this little gem of web design books. I think now is the time for proper credit.
 
 DtO is a very pleasant and easy to read and use web design book, while at the same time is tons useful. The writing is simple and very pleasant, enriched with proper screenshots and relative images to avoid eye strain. The very size of the book is quite small &#8211; it&#8217;s not meant to be a bible, more of a handbook full of good advice.
 

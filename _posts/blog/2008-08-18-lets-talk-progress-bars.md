@@ -3,6 +3,7 @@ title: 'Let&#8217;s talk progress bars'
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/lets-talk-progress-bars"
 ---
 Percentages and the ways they can be displayed in web pages are not exactly the hottest trend of the mill, but it&#8217;s something that bothers me for quite some time now.
 

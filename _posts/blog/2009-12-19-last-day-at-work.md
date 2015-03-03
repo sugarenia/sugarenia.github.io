@@ -3,6 +3,7 @@ title: Last Day At Work
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/life/last-day-at-work"
 ---
 <p style="text-align: center;">
   <img class="aligncenter" src="http://farm1.static.flickr.com/47/140115572_d1eff7c94a_m.jpg" alt="Departure" width="240" height="226" />

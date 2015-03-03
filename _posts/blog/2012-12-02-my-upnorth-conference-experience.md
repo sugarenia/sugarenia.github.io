@@ -3,6 +3,7 @@ title: My UpNorth Conference experience
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/my-upnorth-conference-experience"
 ---
 <a href="http://www.flickr.com/photos/alexanyan/2939528582/" target="_blank"><img src="http://farm4.staticflickr.com/3180/2939528582_8213386cb9.jpg" alt="Thessaloniki" /></a>
 

@@ -20,13 +20,15 @@ code {
   font-family: Menlo, Monaco, Consolas, Inconsolata, "Andale Mono", monospace;
   font-size: 0.8rem;
   line-height: 1.4;
-  color: #c0c5cb;
+  background-color: #FFFDE2;
+  color: #C78B38;
+  padding: 2px 4px;
 
-  &.inline {
-    background-color: #FFFDE2;
-    color: #C78B38;
-    padding: 2px 4px;
-  }
+  .highlight & {
+    background-color: transparent;
+    color: #c0c5cb;
+    padding: 0;
+  } 
 }
  
 /* Comment */

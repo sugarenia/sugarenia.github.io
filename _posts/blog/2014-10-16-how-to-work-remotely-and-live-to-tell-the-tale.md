@@ -3,6 +3,7 @@ title: How to Work Remotely and Live to Tell the Tale
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/life/how-to-work-remotely-and-live-to-tell-the-tale"
 ---
 Two of the most common questions I get while talking with my peers is why and how I work from home. 
 

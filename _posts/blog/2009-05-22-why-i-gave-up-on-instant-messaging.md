@@ -3,6 +3,7 @@ title: Why I Gave Up On Instant Messaging
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/productivity/why-i-gave-up-on-instant-messaging"
 ---
 <p style="text-align: center;">
   <img class="alignnone size-full wp-image-1059" title="catsies" src="http://blog.sugarenia.com/wp-content/uploads/2009/05/catsies.jpg" alt="catsies" width="330" height="228" />

@@ -3,6 +3,7 @@ title: How I Learnt to Ride a Bicycle
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/life/how-i-learnt-to-ride-a-bicycle"
 ---
 [<img src="http://farm4.staticflickr.com/3541/3840888997_9c2aca434d.jpg" width="500" height="333" alt="Late Afternoon Bicycle Shadow on Green Grass and Barefoot Kid" />][1]
 

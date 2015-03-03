@@ -3,6 +3,7 @@ title: Not a Phone Person
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/life/not-a-phone-person"
 ---
 Ok, I&#8217;m not a phone person, I admit it. If it&#8217;s a crime, then I&#8217;m guilty.
 

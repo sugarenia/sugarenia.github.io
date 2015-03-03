@@ -3,6 +3,7 @@ title: New Adventures in Web Design
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/new-adventures-in-web-design"
 ---
 <img src="http://blog.sugarenia.com/wp-content/uploads/2011/01/photo1.jpg" alt="My #naconf pass" title="My #naconf pass" width="500" height="325" class="alignnone size-full wp-image-1286" />
 

@@ -3,6 +3,7 @@ title: So long, Uncle Steve
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/life/so-long-uncle-steve"
 ---
 Today is just another ordinary day.
 

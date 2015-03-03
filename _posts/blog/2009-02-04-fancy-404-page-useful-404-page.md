@@ -3,9 +3,10 @@ title: Fancy 404 page != Useful 404 page
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/rantings/fancy-404-page-useful-404-page"
 ---
 <p style="text-align: center;">
-  <a href="http://blog.sugarenia.com/wp-content/uploads/2009/02/404.jpg"><img class="size-full wp-image-880 aligncenter" title="404" src="http://blog.sugarenia.com/wp-content/uploads/2009/02/404.jpg" alt="404" width="330" height="300" /><br /> </a><br /> <span class="imagecaption">Photo by <a href="http://flickr.com/photos/mrbiggs/" target="_blank">digitaltrickery</a></span>
+  <a href="http://blog.sugarenia.com/wp-content/uploads/2009/02/404.jpg"><img class="size-full wp-image-880 aligncenter" title="404" src="http://blog.sugarenia.com/wp-content/uploads/2009/02/404.jpg" alt="404" width="330" height="300" /></a> <br /><span class="small">Photo by <a href="http://flickr.com/photos/mrbiggs/" target="_blank">digitaltrickery</a></span>
 </p>
 
 I&#8217;m gonna take (and use) my usability stick for this post, so please bear with me.

@@ -3,6 +3,7 @@ title: Are you a Web Designer? You Should Learn to Code.
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/rantings/are-you-a-web-designer-you-should-learn-to-code"
 ---
 <small><em>The I-can&#8217;t-believe-we&#8217;re-still-talking-about-this-in-2014 issue.</em></small>
 

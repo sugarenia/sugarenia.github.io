@@ -3,6 +3,7 @@ title: 'Sass Sundays: A Button Framework for your Projects'
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/a-sass-button-framework-for-your-projects"
 ---
 I love Sass. It&#8217;s my bread & butter these days &#8211; I read, write and research Sass for most of my workday. Heck, for most of my day. It really transformed the way I work.
 

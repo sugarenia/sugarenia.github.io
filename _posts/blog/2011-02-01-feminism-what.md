@@ -3,6 +3,7 @@ title: Feminism what?
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/life/feminism-what"
 ---
 <img class="alignnone" title="Feminism" src="http://farm4.static.flickr.com/3022/2909138048_58b720bc1a.jpg" alt="" width="500" height="375" />
 

@@ -273,6 +273,10 @@ a {
     font-size: 80%;
     color: #9aa3ab;
   }
+
+  img.left {
+    margin-right: 1rem;
+  }
 }
 
 /*
@@ -324,3 +328,4 @@ a {
 // Utilities
 .left   { float: left; }
 .right  { float: right; }
+.text-center { text-align: center; }

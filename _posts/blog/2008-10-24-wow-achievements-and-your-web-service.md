@@ -3,6 +3,7 @@ title: WoW Achievements and your Web Service
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/critiques/wow-achievements-and-your-web-service"
 ---
 If you have any poor souls that are into <a href="http://www.wow-europe.com" target="_blank">World of Warcraft</a> (still) among your closest friends, I&#8217;m sure they&#8217;ll be already babbling about the new cool / addictive / annoying / you-name-it <a href="http://www.wow-europe.com/wrath/features/gameplay/achievements.xml" target="_blank">achievements system</a> that got introduced in the game with the <a href="http://www.wow-europe.com/en/info/underdev/implemented/3p02.html" target="_blank">latest patch</a>.
 

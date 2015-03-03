@@ -3,6 +3,7 @@ title: 'Introducing: Compact Multi-line CSS!'
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/introducing-compact-multi-line-css"
 ---
 Ah, the smell of freshly written CSS code on Friday nights. What&#8217;s not to love.
 
@@ -12,7 +13,7 @@ Over my (few) years of web design experience, I&#8217;ve become <del>anal</del> 
 
 One thing that&#8217;s pretty important while authoring CSS for relatively large projects is the way you structure it. We&#8217;ve already discussed [single-line or multi-line][2] in this blog, plus the way you define sections and so-called variables in your CSS are already known topics. But I&#8217;ve decided to beat that dead horse a bit more.
 
-### Multi-line doesn&#8217;t cut it and single-line sucks
+#### Multi-line doesn&#8217;t cut it and single-line sucks
 
 There&#8217;s a way to structure CSS that I want to experiment with.
 
@@ -26,53 +27,61 @@ The *compact multi-line CSS* structure! Tada!
 
 Well yeah, lemme show you how it&#8217;s (supposed to be) done.
 
-### How it&#8217;s done
+#### How it&#8217;s done
 
 In compact multi-line CSS, you keep the multi-line-ity of it all, but you group &#8220;relevant&#8221; properties. You know which they are: `margin` goes hand in hand with `padding`, `position` loves `top`, `left`, `right`, `bottom`, `font` properties should propably go hand in hand with `line-height` and `letter-spacing`, et cetera, et cetera.
 
 Let&#8217;s take an excerpt of my [CSS3.gr][3] CSS and try to convert it:
 
-<pre class="css">.about-more h4	{
-	padding: 0;
-	margin: 0;
-	border: none;
-	color: #666;
-	font: 14px Georgia, "Times New Roman", serif;
-	text-transform: none;
-	letter-spacing: normal;
-	position: relative;
-}</pre>
+{% highlight css %}
+.about-more h4  {
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: #666;
+  font: 14px Georgia, "Times New Roman", serif;
+  text-transform: none;
+  letter-spacing: normal;
+  position: relative;
+}
+{% endhighlight %}
 
 In compact multi-line, that would be:
 
-<pre class="css">.about-more h4	{
-	margin: 0; padding: 0;
-	font: 14px Georgia, "Times New Roman", serif; text-transform: none; letter-spacing: normal;
-	border: none;
-	color: #666;
-	position: relative;
-}</pre>
+{% highlight css %}
+.about-more h4  {
+  margin: 0; padding: 0;
+  font: 14px Georgia, "Times New Roman", serif; text-transform: none; letter-spacing: normal;
+  border: none;
+  color: #666;
+  position: relative;
+}
+{% endhighlight %}
 
 We&#8217;ve gone from 8 lines to 5, without sacrificing readability much. How about:
 
-<pre class="css">#footer-disclaimer	{
-	text-align: center;
-	font: 10px Georgia, "Times New Roman", serif;
-	text-transform: uppercase;
-	background: url(./themes/site_themes/css3/skeleton/disclaimer-bg.png) no-repeat top;
-	color: #97ACA3;
-	letter-spacing: 1.2px;
-	padding: 20px 0 10px;
-	margin-top: -10px;
-}</pre>
+{% highlight css %}
+#footer-disclaimer  {
+  text-align: center;
+  font: 10px Georgia, "Times New Roman", serif;
+  text-transform: uppercase;
+  background: url(./themes/site_themes/css3/skeleton/disclaimer-bg.png) no-repeat top;
+  color: #97ACA3;
+  letter-spacing: 1.2px;
+  padding: 20px 0 10px;
+  margin-top: -10px;
+}
+{% endhighlight %}
 
 &#8230;which gets the short treatment to&#8230;
 
-<pre class="css">#footer-disclaimer	{
-	font: 10px Georgia, "Times New Roman", serif; text-align: center; text-transform: uppercase; letter-spacing: 1.2px;
-	background: url(./themes/site_themes/css3/skeleton/disclaimer-bg.png) no-repeat top; color: #97ACA3;
-	margin-top: -10px; padding: 20px 0 10px;
-}</pre>
+{% highlight css %}
+#footer-disclaimer  {
+  font: 10px Georgia, "Times New Roman", serif; text-align: center; text-transform: uppercase; letter-spacing: 1.2px;
+  background: url(./themes/site_themes/css3/skeleton/disclaimer-bg.png) no-repeat top; color: #97ACA3;
+  margin-top: -10px; padding: 20px 0 10px;
+}
+{% endhighlight %}
 
 That&#8217;s 8 lines to 3! Quite a score, innit?
 

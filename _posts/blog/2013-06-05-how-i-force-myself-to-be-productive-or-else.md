@@ -3,6 +3,7 @@ title: How I Force Myself to be Productive (or else)
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/productivity/how-i-force-myself-to-be-productive-or-else"
 ---
 If you were around right now, you would see me hanging my head in shame. Why?
 

@@ -3,6 +3,7 @@ title: My take on WordCamp Greece 2011
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/web-design/my-take-on-wordcamp-greece-2011"
 ---
 About two months ago, I was invited by Basilis Kanonidis of [creativeg.gr][1] to speak in the second greek WordCamp, which would take place in Thessaloniki in early June.
 

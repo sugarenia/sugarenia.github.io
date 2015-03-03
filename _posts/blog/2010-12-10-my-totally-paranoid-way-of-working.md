@@ -3,6 +3,7 @@ title: My (totally) Paranoid Way of Working
 author: Sugar
 layout: post
 category: blog
+redirect_from: "/archives/life/my-totally-paranoid-way-of-working"
 ---
 [<img src="http://farm5.static.flickr.com/4020/4465852728_70f61fce92.jpg" width="500" height="375" alt="That kinda hurt" />][1]
 
