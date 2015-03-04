@@ -19,10 +19,11 @@ body {
 
 a {
   color: #fff;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
 
   &:hover {
-    text-decoration: none;
+    border-bottom: none;
   }
 }
 
@@ -93,7 +94,7 @@ a {
     }
 
     a {
-      text-decoration: none;
+      border-bottom: none;
     }
   }
 
@@ -117,7 +118,7 @@ a {
 
   a {
     color: white(0.6);
-    text-decoration: none;
+    border-bottom: none;
 
     &:hover {
       color: white(0.8);
@@ -222,16 +223,16 @@ a {
 
     a {
       color: #b6c0ca;
-      text-decoration: none;
+      border-bottom: none;
     }
   }
 
   a {
     color: #2b3e50;
-    text-decoration: none;
+    border-bottom: none;
 
     &:hover {
-      text-decoration: underline;
+      border-bottom: 1px solid #2b3e50;
     }
   }
 }
@@ -270,10 +271,11 @@ a {
 
   a {
     color: $color-orange;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid $color-orange;
 
     &:hover {
-      text-decoration: none;
+      border-bottom: none;
     }
   }
 
@@ -307,7 +309,13 @@ a {
   @extend %clearfix;
 
   a {
+    color: #2b3e50;
+    border-bottom: none;
     @include bold-text(1.2rem);
+
+    &:hover {
+      border-bottom: 1px solid #2b3e50;
+    }
   }
 }
 
