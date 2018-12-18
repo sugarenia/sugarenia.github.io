@@ -288,6 +288,17 @@ a {
   img.left {
     margin-right: 1rem;
   }
+
+  img.full {
+    width: 100%;
+  }
+
+  .img-caption {
+    text-align: center;
+    font-style: italic;
+    font-size: 85%;
+    color: lighten(#484c50, 20%);
+  }
 }
 
 /*
